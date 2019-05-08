@@ -1,0 +1,5 @@
+package com.capgemini.movie.movieinfo.controller;
+
+public class MovieInfoController {
+
+}

@@ -1,0 +1,8 @@
+package com.capgemini.bankapp.entity;
+
+public class BankAccount {
+	String accountHolderName;
+	Long accountBalance;
+	Long accountNumber;
+
+}

@@ -1,0 +1,5 @@
+package com.capgemini.movie.movieinfo.entity;
+
+public class Movie {
+
+}

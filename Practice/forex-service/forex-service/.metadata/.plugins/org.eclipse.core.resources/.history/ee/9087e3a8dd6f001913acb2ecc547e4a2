@@ -1,0 +1,9 @@
+package com.capgemini.forex;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.capgemini.entity.ExchangeValue;
+
+public interface ExchangeValueRepository extends 
+    JpaRepository<ExchangeValue, Long>{
+  ExchangeValue findByFromAndTo(String from, String to);
+}
